@@ -1,5 +1,5 @@
 # CLAT-cross-lingual-annotation-transfer
-This repository contains the source code for transferring annotations as described in work 
+This repository contains the source code for transferring annotations as described in 
 
 > Cross-language transfer of high-quality annotations: Combining neural
 > machine translation with cross-linguistic span alignment to apply NER
