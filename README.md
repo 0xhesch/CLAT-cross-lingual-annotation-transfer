@@ -54,7 +54,6 @@ If you use this code, please cite
         publisher = "Association for Computational Linguistics",
         url = "https://aclanthology.org/2022.clinicalnlp-1.6",
         pages = "53--62",
-        }
     }
 
 and SimAlign
