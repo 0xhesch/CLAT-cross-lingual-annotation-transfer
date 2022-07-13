@@ -1,9 +1,7 @@
 # CLAT-cross-lingual-annotation-transfer
 This repository contains the source code for transferring annotations as described in 
 
-> Cross-language transfer of high-quality annotations: Combining neural
-> machine translation with cross-linguistic span alignment to apply NER
-> to clinical texts in a low-resource language
+[Cross-language transfer of high-quality annotations: Combining neural machine translation with cross-linguistic span alignment to apply NER to clinical texts in a low-resource language](https://aclanthology.org/2022.clinicalnlp-1.6/)
 
 Translating datasets with their annotations between multiple target languages is possible. The input format must be `conll`. 
 
@@ -41,3 +39,18 @@ If there are bidirectional models for your language pair, that might be preferab
 
 If the dataset is not in English, support languages can be used in between, there is also the `facebook/mbart-large-50-many-to-many-mmt` model.
 
+    @inproceedings{schafer-etal-2022-cross,
+        title = "Cross-Language Transfer of High-Quality Annotations: Combining Neural Machine Translation with Cross-Linguistic Span Alignment to Apply {NER} to Clinical Texts in a Low-Resource Language",
+        author = {Sch{\"a}fer, Henning  and
+          Idrissi-Yaghir, Ahmad  and
+          Horn, Peter  and
+          Friedrich, Christoph},
+        booktitle = "Proceedings of the 4th Clinical Natural Language Processing Workshop",
+        month = jul,
+        year = "2022",
+        address = "Seattle, WA",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2022.clinicalnlp-1.6",
+        pages = "53--62",
+        }
+    }
