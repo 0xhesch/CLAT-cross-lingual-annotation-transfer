@@ -5,7 +5,7 @@ This repository contains the source code for transferring annotations as describ
 
 Translating datasets with their annotations between multiple target languages is possible by running clat-fwd.py. The input format must be `conll`. 
 
-The default selected model is `facebook/wmt21-dense-24-wide-en-x`, which means that by default the source dataset should be in English. The following 7 languages are supported by that model:
+The default selected model is `facebook/wmt21-dense-24-wide-en-x`, which means that by default the source dataset should be in English. The following 7 target languages are then supported by that model:
 
     English (en), Hausa (ha), Icelandic (is), Japanese (ja), Czech (cs), Russian (ru), Chinese (zh), German (de)
 
